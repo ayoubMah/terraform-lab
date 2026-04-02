@@ -9,6 +9,7 @@ locals {
         environment = var.environment
         managed-by  = "terraform"
         app         = var.app_name
+	team        = "platform"
       }
     }
   }
